@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading
+{
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: lightskyblue;
+    color: #000;
+}
+.top
+{
+    background: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 5px;
+}
+.top .top-right a
+{
+    text-decoration: none;
+}
+.heading p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+.heading p a{text-decoration: none;}
+.heading ul
+{
+    text-align: left;
+    padding-left: 25px;
+    border: 1px solid blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.heading ul li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.heading ul li a{text-decoration: none;}
+.banner{display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: lightskyblue;
+}
+.banner-left
+{ 
+    background-image: url(images/ecommerce.jpg);
+    width: 50%;
+    height: 431px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-right{
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    line-height: 1;
+}
+.banner-right p:nth-child(1){
+    font-size: 60px;
+}
+.banner-right p:nth-child(2)
+{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+.banner-right button
+{
+    padding: 14px 30px;
+    background-color: burlywood;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.banner-right button:hover{background-color: lightseagreen;}
